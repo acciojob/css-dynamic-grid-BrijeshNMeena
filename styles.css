@@ -2,11 +2,12 @@
 .grid-container{
 	display: grid;
 	grid-template-columns: repeat(9, 1fr);
+	gap: 10px 10px;
 }
 .grid-item{
 	background-color: lightgray;
-	height: 50px;
-	width: 50px;
+	height: 150px;
+	width: 200px;
 	border-radius: 5px;
 	font-size: 40px;
 	margin-right: 10px;
